@@ -81,7 +81,7 @@ const CsvFetcher = (): ReactElement => {
     );
   };
 
-  const tableHeaders = [
+  const tableHeaders: string[] = [
     "Event",
     "First Name",
     "Last Name",
