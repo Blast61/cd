@@ -32,8 +32,8 @@ const CsvFetcher = () => {
   }, []);
   return (
     <div>
-      <h1>Clients</h1>
-      <table>
+      <h1 className="page-title">Clients</h1>
+      <table className="content-table">
         <thead>
           <tr>
             {csvData.length > 0 &&
