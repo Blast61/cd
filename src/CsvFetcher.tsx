@@ -81,16 +81,30 @@ const CsvFetcher = (): ReactElement => {
     );
   };
 
+  const tableHeaders = [
+    "Event",
+    "First Name",
+    "Last Name",
+    "Phone Number",
+    "D.O.B",
+    "Address",
+    "City",
+    "State",
+    "Zip Code",
+    "MemberId",
+    "Date of Event",
+    "Facility",
+    "Diagnosis Code",
+  ];
   return (
     <div>
-      <h1 className="page-title">Clients</h1>
+      <h1 className="page-title">Client Data</h1>
       <table className="content-table">
         <thead>
           <tr>
-            {csvData.length > 0 &&
-              Object.keys(csvData[0]).map((header, index) => (
-                <th key={index}>{header}</th>
-              ))}
+            {tableHeaders.map((header, index) => (
+              <th key={index}>{header}</th>
+            ))}
             <th>Actions</th>
           </tr>
         </thead>
