@@ -1,7 +1,5 @@
 import { createRoot } from "react-dom/client";
 import CsvFetcher from "./CsvFetcher";
-// import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-// import Client from "./Client";
 
 const App = () => {
   return (
@@ -12,5 +10,9 @@ const App = () => {
 };
 
 const container = document.getElementById("root");
-const root = createRoot(container);
-root.render(<App />);
+if (container) {
+  const root = createRoot(container);
+  root.render(<App />);
+} else {
+  console.error("Root not found");
+}
