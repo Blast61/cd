@@ -20,12 +20,14 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.8",
     "prettier": "^3.1.1",
-    "vite": "^4.2.0"
+    "vite": "^4.2.0",
+    "vite-plugin-mock": "^3.0.0"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.10.1",
     "papaparse": "^5.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-papaparse": "^4.4.0"
   }
 }

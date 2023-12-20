@@ -1,0 +1,20 @@
+eventType,firstName,lastName,phoneNumber,dob,address,city,state,zipCode,memberId,eventDate,Facility,diagnosisCode
+ED Registration,Kalliope,Mitchell,2726316400,03/11/1936,987 Maple Dr,Indianapolis,IN,46201,G6000000001,08/03/2023,Elmhurst Hospital,
+ED Discharge,Faarax,Abbott,6624869212,09/30/1992,543 Birch Blvd,Barberton,OH,44203,G6000000002,08/04/2023,Montefiore Westchester Square,W19.XXXA Unspecified fall  initial encounter I10
+ED Registration,Stefania,Greene,6702771358,05/29/2003,876 Walnut St,Athens,GA,30605,G6000000003,08/05/2023,Montefiore Einstein,84 Burn OBHSBHMC-DXG-LOCAL
+ED Registration,Joshua,Holmes,9197510784,02/24/1967,210 Pine St,Natchez,MS,39120,G6000000004,08/06/2023,Lenox Hill Hospital,lac NYULUTHERAN-DXG-LOCAL
+ED Registration,Caelius,Adkins,1127708685,12/24/1982,789 Oak Ave,Piscataway,NJ,8854,G6000000005,08/07/2023,One Brooklyn Health - Brookdale,lac NYULUTHERAN-DXG-LOCAL
+ED Discharge,Fatin,O'Brien,1975727619,09/09/1998,123 Elm St,Fond Du Lac,WI,54935,G6000000006,08/08/2023,Montefiore Einstein,fever/ headache ELMHURST-DXG-LOCAL
+ED Discharge,Fatin,O'Brien,1975727619,09/09/1998,456 Cedar Ln,Fond Du Lac,WI,54935,G6000000006,08/09/2024,Elmhurst Hospital,W19.XXXA Unspecified fall  initial encounter I10
+ED Registration,Stefania,Greene,6702771358,05/29/2003,876 Walnut St,Athens,GA,30605,G6000000003,08/05/2023,Montefiore Einstein,
+ED Registration,Kira,Perez,7215004734,05/20/1970,987 Birch Blvd,Jamaica Plain,MA,2130,G6000000008,08/11/2023,NYU Lutheran,R10.9 Unspecified abdominal pain ICD-10
+ED Registration,Kalliope,Mitchell,2726316400,03/11/1936,987 Maple Dr,Indianapolis,IN,46201,G6000000001,08/03/2023,Elmhurst Hospital,Chest Pain  Left Side Weakness CIH-DXG-LOCAL
+ED Registration,Philandros,Rivera,3198942273,01/05/1950,654 Pine Rd,Elizabeth,NJ,7202,G6000000010,08/13/2023,Elmhurst Hospital,84 Burn OBHSBHMC-DXG-LOCAL
+ED Registration,Carloman,Hubbard,3606858242,03/03/1967,876 Cedar Ln,West Roxbury,MA,2132,G6000000011,08/14/2023,Kings County Hospital Center,R06.02 Shortness of breath ICD-10-CM
+ED Registration,Jaida,Barker,1674858467,10/06/1991,210 Birch Blvd,Lincolnton,NC,28092,G6000000012,08/15/2023,Kings County Hospital Center,N39.0 Urinary tract infection  site not specified ICD-10
+ED Registration,Stefanija,Bass,5907414694,09/11/1952,543 Maple Dr,Frankfort,KY,40601,G6000000013,08/16/2023,Bellevue Hospital,
+ED Registration,Carloman,Hubbard,3606858242,03/03/1967,876 Cedar Ln,West Roxbury,MA,2132,G6000000011,08/14/2023,Kings County Hospital Center,
+ED Registration,Jaida,Barker,1674858467,10/06/1991,210 Birch Blvd,Lincolnton,NC,28092,G6000000012,08/15/2023,Kings County Hospital Center,fever/ headache ELMHURST-DXG-LOCAL
+ED Discharge,Carloman,Hubbard,3606858242,03/03/1967,876 Cedar Ln,West Roxbury,MA,2132,G6000000011,08/14/2023,Kings County Hospital Center,R06.02 Shortness of breath ICD-10-CM
+ED Discharge,Stefanija,Bass,5907414694,09/11/1952,543 Maple Dr,Frankfort,KY,40601,G6000000013,08/17/2023,Bellevue Hospital,R10.9 Unspecified abdominal pain ICD-10
+ED Discharge,Caelius,Adkins,1127708685,12/24/1982,789 Oak Ave,Piscataway,NJ,8854,G6000000005,08/17/2023,One Brooklyn Health - Brookdale,
