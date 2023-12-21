@@ -1,9 +1,10 @@
-import { Fragment, useEffect, useState, ReactElement } from "react";
+import { Fragment, useEffect, useState } from "react";
 import Papa from "papaparse";
 import { groupBy } from "./utils/group";
-import { CsvRow } from "./types/types";
-const CsvFetcher = (): ReactElement => {
-  const [csvData, setCsvData] = useState<CsvRow[]>([]);
+import { CsvDataWithDuplicates, CsvRow } from "./types/types";
+
+const CsvFetcher = (): React.ReactNode => {
+  const [csvData, setCsvData] = useState<CsvDataWithDuplicates[]>([]);
 
   useEffect(() => {
     const fetchCsvData = async (): Promise<void> => {
@@ -49,14 +50,17 @@ const CsvFetcher = (): ReactElement => {
             );
 
             //Add an indicator to id rows with duplicates
-            const clientDuplicates = reducedData.map((row) => ({
-              ...row,
-              hasDuplicates:
-                groupBy(
-                  sortedData,
-                  (item) => `${item.firstName}_${item.lastName}`,
-                )[`${row.firstName}_${row.lastName}`]?.length > 1,
-            }));
+            const clientDuplicates: CsvDataWithDuplicates[] = reducedData.map(
+              (row) => ({
+                ...row,
+                hasDuplicates:
+                  groupBy(
+                    sortedData,
+                    (item) => `${item.firstName}_${item.lastName}`,
+                  )[`${row.firstName}_${row.lastName}`]?.length > 1,
+                expanded: false,
+              }),
+            );
 
             setCsvData(clientDuplicates);
           },

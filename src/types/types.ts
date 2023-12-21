@@ -5,3 +5,8 @@ export interface CsvRow {
   expanded?: boolean;
   hasDuplicates?: boolean;
 }
+
+export interface CsvDataWithDuplicates extends CsvRow{
+  expanded: boolean;
+  hasDuplicates: boolean;
+}
