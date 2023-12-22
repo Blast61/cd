@@ -1,4 +1,4 @@
-<h1>myLaurel Take-Home Assessment</h1>
+<h1>Client Data</h1>
 
 <h2>Running/Starting the Application</h2>
 
